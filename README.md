@@ -20,17 +20,17 @@ A entrega final não se limita a análises exploratórias: o projeto gera insigh
 
 Transformar dados operacionais brutos em informação estratégica para tomada de decisão.
 
-O projeto responde, entre outras, às seguintes perguntas de negócio:
+**O projeto responde, entre outras, às seguintes perguntas de negócio:**
 
-Onde estão concentrados os maiores atrasos logísticos?
+• Onde estão concentrados os maiores atrasos logísticos?
 
-Quais fatores operacionais mais impactam o tempo de entrega?
+• Quais fatores operacionais mais impactam o tempo de entrega?
 
-Como clima, tráfego e tipo de veículo influenciam a eficiência?
+• Como clima, tráfego e tipo de veículo influenciam a eficiência?
 
-Existem perfis de entregadores ou contextos operacionais mais críticos?
+• Existem perfis de entregadores ou contextos operacionais mais críticos?
 
-Que ações práticas podem reduzir atrasos e melhorar o SLA?
+• Que ações práticas podem reduzir atrasos e melhorar o SLA?
 
 
 
