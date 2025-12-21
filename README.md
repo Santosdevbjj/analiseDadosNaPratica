@@ -51,11 +51,11 @@ Escolhido pela maturidade do ecossistema de dados e ampla adoção no mercado.
 
 • automação de dados (scripts/)
 
-•✓análise exploratória e diagnóstica (notebooks/)
+• análise exploratória e diagnóstica (notebooks/)
 
 • ativos executivos e relatórios (reports/)
 
-•™documentação técnica (docs/)
+• documentação técnica (docs/)
 
 
 **Análise Diagnóstica antes de Modelos Preditivos**
