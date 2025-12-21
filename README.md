@@ -45,19 +45,21 @@ Este projeto foi estruturado com foco em clareza, auditabilidade e reprodutibili
 Python como linguagem principal
 Escolhido pela maturidade do ecossistema de dados e ampla adoção no mercado.
 
-Arquitetura Modular
-Separação clara entre:
+**Arquitetura Modular**
 
-automação de dados (scripts/)
+**Separação clara entre:**
 
-análise exploratória e diagnóstica (notebooks/)
+• automação de dados (scripts/)
 
-ativos executivos e relatórios (reports/)
+•✓análise exploratória e diagnóstica (notebooks/)
 
-documentação técnica (docs/)
+• ativos executivos e relatórios (reports/)
+
+•™documentação técnica (docs/)
 
 
-Análise Diagnóstica antes de Modelos Preditivos
+**Análise Diagnóstica antes de Modelos Preditivos**
+
 A priorização foi compreender por que os atrasos acontecem antes de propor soluções de Machine Learning, garantindo confiança e transparência para stakeholders.
 
 
@@ -99,12 +101,12 @@ Dados brutos originais, mantidos imutáveis para garantir rastreabilidade.
 
 📁 **data/processed/**
 
-amazon_delivery_tratado.csv: Dataset limpo, tipado e pronto para análise.
+**amazon_delivery_tratado.csv:** Dataset limpo, tipado e pronto para análise.
 
 
 📁 **scripts/**
 
-preparar_dados.py:
+**preparar_dados.py:**
 Script de limpeza, padronização, engenharia de atributos e persistência do dataset tratado.
 Permite reprocessar os dados sem dependência de notebooks.
 
@@ -126,26 +128,29 @@ Permite reprocessar os dados sem dependência de notebooks.
 
 📁 **reports/**
 
-relatorio_executivo.pdf: Documento final para diretoria
+**relatorio_executivo.pdf:** Documento final para diretoria
 
 Scripts de geração automática de gráficos e relatórios
 
-graficos/: Ativos visuais utilizados em apresentações executivas
+**graficos/:** Ativos visuais utilizados em apresentações executivas
+
+
+**reports/graficos/dashboard_executivo.png:** Uma visão unificada (One-Page) contendo os 4 KPIs principais da operação para apresentações executivas rápidas.
 
 
 📁 **docs/**
 
-Documentação técnica e de negócio:
+**Documentação técnica e de negócio:**
 
-Definição do problema
+• Definição do problema
 
-Premissas analíticas
+• Premissas analíticas
 
-Dicionário de dados
+• Dicionário de dados
 
-Conclusões técnicas
+• Conclusões técnicas
 
-Recomendações executivas
+• Recomendações executivas
 
 
 
@@ -153,17 +158,17 @@ Recomendações executivas
 
 💡 **Principais Insights (Diagnóstico Analítico)**
 
-Alta variabilidade operacional:
-Tempo médio de entrega ≈ 125 min, com desvio padrão elevado (≈ 52 min), indicando baixa previsibilidade.
+**Alta variabilidade operacional:**
+• Tempo médio de entrega ≈ 125 min, com desvio padrão elevado (≈ 52 min), indicando baixa previsibilidade.
 
-Clima como multiplicador de risco:
-Neblina e tempestades não apenas agravam atrasos — amplificam falhas operacionais existentes.
+**Clima como multiplicador de risco:**
+• Neblina e tempestades não apenas agravam atrasos — amplificam falhas operacionais existentes.
 
-Ineficiência por tipo de veículo:
-Motocicletas apresentam desempenho inferior em áreas Semi-Urban, onde o volume de atrasos supera entregas no prazo.
+**Ineficiência por tipo de veículo:**
+• Motocicletas apresentam desempenho inferior em áreas Semi-Urban, onde o volume de atrasos supera entregas no prazo.
 
-Perfil do entregador e tráfego:
-Existe correlação entre baixas avaliações e atrasos em rotas com tráfego intenso (Jam).
+**Perfil do entregador e tráfego:**
+• Existe correlação entre baixas avaliações e atrasos em rotas com tráfego intenso (Jam).
 
 
 
@@ -190,7 +195,7 @@ pip install -r requirements.txt
 
 
 
-python scripts/preparar_dados.py
+• python scripts/preparar_dados.py
 
 **2. Executar os notebooks (opcional, para análise detalhada)**
 
@@ -199,8 +204,9 @@ python scripts/preparar_dados.py
 
 
 
-python reports/gerar_relatorio_grafico.py
-python reports/gerar_relatorio_executivo.py
+• python reports/gerar_relatorio_grafico.py
+
+• python reports/gerar_relatorio_executivo.py
 
 
 ---
