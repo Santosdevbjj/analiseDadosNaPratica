@@ -159,17 +159,23 @@ Scripts de geração automática de gráficos e relatórios
 💡 **Principais Insights (Diagnóstico Analítico)**
 
 **Alta variabilidade operacional:**
+
 • Tempo médio de entrega ≈ 125 min, com desvio padrão elevado (≈ 52 min), indicando baixa previsibilidade.
 
 **Clima como multiplicador de risco:**
+
 • Neblina e tempestades não apenas agravam atrasos — amplificam falhas operacionais existentes.
 
 **Ineficiência por tipo de veículo:**
+
 • Motocicletas apresentam desempenho inferior em áreas Semi-Urban, onde o volume de atrasos supera entregas no prazo.
 
 **Perfil do entregador e tráfego:**
+
 • Existe correlação entre baixas avaliações e atrasos em rotas com tráfego intenso (Jam).
 
+
+​![Dashboard Executivo](reports/graficos/dashboard_executivo.png)
 
 
 ---
