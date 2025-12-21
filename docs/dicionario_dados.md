@@ -1,6 +1,9 @@
-📖 Dicionário de Dados: Amazon Logistics Dataset
+📖 **Dicionário de Dados: Amazon Logistics Dataset**
+
 Este documento serve como a Fonte da Verdade técnica para as variáveis utilizadas no projeto de análise de performance logística. Ele detalha a tipagem, descrição e restrições de cada campo presente no dataset.
-📊 Estrutura das Variáveis
+
+📊 **Estrutura das Variáveis**
+
 | Atributo | Tipo de Dado | Descrição | Exemplo / Restrições |
 |---|---|---|---|
 | Order_ID | String | Identificador único alfanumérico do pedido. | 0x3a4b... |
@@ -22,11 +25,18 @@ Este documento serve como a Fonte da Verdade técnica para as variáveis utiliza
 | Delivery_Time | Integer | Tempo total decorrido da entrega em minutos. | Média: 125 min |
 | Delivery_Status | Boolean | Variável alvo indicando cumprimento do prazo. | ontime, delay |
 | Category | Categorical | Segmento do produto transportado. | Electronics, Grocery, Other |
-🛠️ Notas de Processamento (Engenharia de Dados)
- * Tratamento de Missing Values: Registros com dados ausentes em Traffic ou Weather foram imputados como "Unknown" para manter a integridade da volumetria de análise (43.739 linhas).
- * Conversão de Tipos: Para fins analíticos, a coluna Delivery_Status foi mapeada como variável binária em modelos experimentais (1 para delay, 0 para ontime).
- * Unidades de Medida: Todos os tempos de entrega (Delivery_Time) estão padronizados em minutos, com limites operacionais identificados entre 10 e 270 minutos.
-📈 Relevância para o Negócio
+
+
+🛠️ **Notas de Processamento**
+
+ • **Tratamento de Missing Values:** Registros com dados ausentes em Traffic ou Weather foram imputados como "Unknown" para manter a integridade da volumetria de análise (43.739 linhas).
+   
+ •  **Conversão de Tipos:** Para fins analíticos, a coluna Delivery_Status foi mapeada como variável binária em modelos experimentais (1 para delay, 0 para ontime).
+   
+ • **Unidades de Medida:** Todos os tempos de entrega (Delivery_Time) estão padronizados em minutos, com limites operacionais identificados entre 10 e 270 minutos.
+
+   
+📈 **Relevância para o Negócio**
 Este dicionário suporta a identificação de correlações críticas, como o impacto do tráfego Jam e áreas Semi-Urban na variável Delivery_Status, permitindo ações corretivas diretas na operação logística.
 
 
