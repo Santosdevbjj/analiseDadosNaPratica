@@ -1,8 +1,11 @@
 **Memorando Estratégico: Otimização da Performance Logística**
 
 Para: Diretoria de Logística e Operações
+
 De: Analista de Dados
+
 Assunto: Plano de Ação para Redução de Atrasos e Recuperação de SLA
+
 
 **1. Sumário**
 
