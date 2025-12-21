@@ -1,5 +1,5 @@
 # ============================
-# Python
+# Python & Ambientes Virtuais
 # ============================
 __pycache__/
 *.pyc
@@ -8,6 +8,10 @@ __pycache__/
 .env
 .venv
 venv/
+env/
+dist/
+build/
+*.egg-info/
 
 # ============================
 # Jupyter Notebook
@@ -15,24 +19,30 @@ venv/
 .ipynb_checkpoints/
 
 # ============================
-# Dados Processados Temporários
+# Dados e Logs
 # ============================
 *.tmp
 *.log
+# Se você decidir que não quer subir os dados processados:
+# data/processed/*.csv
 
 # ============================
-# Sistema Operacional
+# Arquivos de Sistema
 # ============================
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # ============================
-# IDEs
+# IDEs e Ferramentas
 # ============================
 .vscode/
 .idea/
+*.swp
+*.bak
 
 # ============================
-# Arquivos Sensíveis
+# Relatórios Locais (Opcional)
 # ============================
-*.env
+# Caso você gere PDFs de teste que não quer que subam:
+# reports/*.pdf_tmp
