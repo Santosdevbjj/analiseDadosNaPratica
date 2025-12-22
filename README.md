@@ -13,6 +13,31 @@ O projeto foi desenvolvido a partir de 43.739 registros operacionais, com o obje
 
 A entrega final não se limita a análises exploratórias: o projeto gera insights acionáveis, ativos visuais executivos e um relatório em PDF voltado à tomada de decisão estratégica.
 
+---
+
+
+
+> 🛠️ **Por que este projeto utiliza Python & GitHub em vez de No-Code (Looker)?**
+
+Diferente de abordagens tradicionais que utilizam ferramentas de arraste-e-solte como o Looker Studio, este projeto foi desenvolvido integralmente em Python. Esta decisão foi tomada para garantir:
+
+• Escalabilidade e Automação: Ao contrário de dashboards manuais, o uso de scripts (scripts/preparar_dados.py) permite que milhares de novos registros sejam processados e visualizados instantaneamente com um único comando, eliminando o erro humano no tratamento de dados.
+
+ •  Reprodutibilidade Técnica: Através do controle de versão no GitHub, cada decisão analítica é auditável. Isso garante que qualquer outro Cientista de Dados possa replicar exatamente os mesmos resultados, algo fundamental em ambientes corporativos de alta governança.
+ 
+ •  Engenharia de Analytics: O uso de bibliotecas como Pandas e Seaborn permitiu uma normalização estatística mais rigorosa (como visto na análise de veículos e clima), entregando insights que ferramentas de BI convencionais muitas vezes simplificam demais.
+ 
+> Nota: Este repositório não é apenas uma visualização de dados, mas uma solução de engenharia de dados ponta a ponta.
+
+
+
+
+
+
+
+
+
+
 
 ---
 
