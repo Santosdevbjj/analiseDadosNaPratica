@@ -211,8 +211,11 @@ Scripts de geração automática de gráficos e relatórios
 **Passo a passo**
 
 • git clone https://github.com/Santosdevbjj/analiseDadosNaPratica.git
+
 • cd analiseDadosNaPratica
-pip install -r requirements.txt
+
+• pip install -r requirements.txt
+
 
 **1. Processar os dados:**
 
