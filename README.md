@@ -2,7 +2,7 @@
 
 Diagnóstico de Eficiência Operacional e Redução de Atrasos
 
-
+ 
 ---
 
 📋 **Visão Geral**
